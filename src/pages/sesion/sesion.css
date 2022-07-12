@@ -1,0 +1,29 @@
+.mainSesion {
+    display: flex;
+    place-content: center;
+    height: 850px;
+}
+
+.fondoSesion img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 850px;
+    object-fit: cover;
+    filter: blur(6px);
+}
+
+.contenedorDeSesion {
+    position: relative;
+    z-index: 1000;
+    background-color: white;
+    width: 30%;
+    margin-top: 200px;
+    padding-bottom: 40px;
+    height: 550px;
+}
+
+.adorno {
+    display: flex;
+    justify-self: flex-start;
+}

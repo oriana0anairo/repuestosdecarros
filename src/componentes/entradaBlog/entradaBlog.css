@@ -1,0 +1,9 @@
+.contenedor {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contenedor>p {
+    text-align: left;
+}

@@ -1,0 +1,250 @@
+@media only screen and (max-width: 2000px) {
+    .incioServicios {
+        position: relative;
+    }
+
+    .primeraImagen {
+        width: 100%;
+    }
+
+    .primeraImagen img {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+
+    }
+
+    .textoflotanteServicios {
+        background-color: rgba(0, 0, 0, 0.764);
+        position: absolute;
+        top: 180px;
+        left: 60%;
+        width: 24%;
+        border-radius: 15px;
+        padding: 2%;
+        color: white;
+        text-align: start;
+    }
+
+    .textoflotanteServicios span {
+        color: #ff5602;
+        font-size: 45px;
+        text-align: start;
+    }
+
+    .fondoCurva img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        position: absolute;
+        left: 0%;
+        top: 650px;
+
+    }
+
+    .classic {
+        position: relative;
+        font-size: 47px;
+        font-weight: 100;
+        color: white;
+        z-index: 0;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.768);
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .tiraDeFotos {
+        display: flex;
+        flex-direction: row;
+        margin-top: 130px;
+    }
+
+    .tiraDeFotos img {
+        width: 25%;
+        height: 140px;
+
+    }
+
+    .carroNaranja img {
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+    }
+
+    .backCategorias img {
+        display: flex;
+        position: absolute;
+        top: 1609px;
+    }
+
+    .textoflotanteBlanco {
+        width: 24%;
+        font-size: 20px;
+        text-align: start;
+        margin-top: 4%;
+    }
+
+    .textoflotanteBlanco span {
+        font-weight: 500;
+        font-size: 35px;
+    }
+
+    .ultimosElementos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .listaDeRepuestos {
+        display: grid;
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 10%;
+
+    }
+
+    .repuestos {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .segundaPortada img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .ultimosTextoFlotante {
+        position: absolute;
+        z-index: 0;
+        font-size: 15px;
+        font-weight: 100;
+        color: white;
+        width: 30%;
+        background-color: rgba(0, 0, 0, 0.79);
+        padding: 3%;
+        text-align: start;
+        border-radius: 20px;
+        bottom: 0px;
+        left: 60%;
+    }
+
+    .ultimosTextoFlotante span {
+        color: #ff5503;
+        font-size: 40px;
+        font-weight: 500;
+        text-align: start;
+    }
+
+    .ultima {
+        position: relative;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .textoflotanteServicios {
+        width: 45%;
+        left: 0%;
+        padding: 50px;
+        top: 180px;
+
+    }
+
+    .textoflotanteServicios {
+        font-size: 18px;
+
+    }
+
+    .textoflotanteServicios span {
+
+        font-size: 35px;
+
+    }
+
+    .carroNaranja img {
+        clip-path: none
+    }
+
+    .classic {
+        display: none;
+    }
+
+    .fondoCurva {
+        display: none;
+    }
+
+
+    .tiraDeFotos {
+        position: relative;
+        z-index: 10;
+        margin-top: 0;
+    }
+
+    .backCategorias {
+        display: none;
+    }
+
+    .ultimosElementos {
+        flex-direction: column;
+    }
+
+    .textoflotanteBlanco {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        gap: 3%;
+        margin: 4%;
+        text-align: start;
+        align-items: center;
+    }
+
+    .textoflotanteBlanco span {
+        font-size: 25px;
+        width: 40%;
+    }
+
+    .textoflotanteBlanco p {
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .listaDeRepuestos {
+
+        grid-template-rows: auto auto;
+        gap: 3%;
+        justify-content: center;
+    }
+
+    .repuestos {
+        display: grid;
+        align-self: center;
+        justify-items: center;
+        margin-bottom: 40px;
+    }
+
+    .repuestos img {
+        width: 130px;
+    }
+
+    .segundaPortada img {
+        clip-path: none;
+    }
+
+    .ultimosTextoFlotante {
+
+        left: 0%;
+        bottom: 0px;
+        font-size: 15px;
+        top: 0px;
+    }
+
+    .ultimosTextoFlotante span {
+        font-size: 25px;
+    }
+}

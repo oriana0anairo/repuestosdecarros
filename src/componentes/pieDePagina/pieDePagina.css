@@ -1,0 +1,161 @@
+@media only screen and (max-width: 2000px) {
+    .pie {
+        display: flex;
+        background-color: black;
+        text-align: start;
+        margin: 0px;
+    }
+
+    .logos {
+        display: none;
+    }
+
+    .primeraParteDelPie {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .franja img {
+        height: 500px;
+        margin-left: 30%;
+    }
+
+    .contactos {
+        display: grid;
+        grid-template-columns: 33% 33% 34%;
+        grid-template-rows: 50px 50px;
+        color: #ff5503;
+        font-size: 15px;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 5%;
+    }
+
+    .contacto {
+        display: flex;
+        align-content: center;
+    }
+
+
+    .paypalFormulario {
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        margin-left: 5%;
+    }
+
+    .miniFormulario {
+        margin: 1%;
+        color: white;
+        row-gap: 10px;
+    }
+
+    #botonEnviar {
+        background-color: #ff5503;
+        color: #531c01;
+        border-radius: 0%;
+        margin-top: 20px;
+        margin-left: 60%;
+        height: 25px;
+
+    }
+
+    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+        background-color: #ffffffc2;
+        width: 80%;
+    }
+
+    #filled-nombre {
+        height: 4px;
+        margin-bottom: 10px;
+    }
+
+    #filled-email {
+
+        height: 4px;
+        margin-bottom: 10px;
+    }
+
+
+    .segundaParteDelPie {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1%;
+    }
+
+    .logoPie {
+        margin-top: 20%;
+    }
+
+    aside {
+        color: white;
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+
+    aside span {
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .pie {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        padding: 10%;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+        font-size: 13px;
+
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 20px;
+    }
+
+    .logos .logosolo {
+        width: 30%;
+        height: 100px;
+    }
+
+    .logos .slogan {
+        width: 60%;
+        height: 60px;
+    }
+
+    .contactos {
+        gap: 5px;
+    }
+
+    .franja {
+        display: none;
+    }
+
+    .logoPie {
+        display: none;
+    }
+
+    .paypalFormulario {
+        margin: 0%;
+    }
+
+    .miniFormulario {
+        width: 60%;
+    }
+
+
+
+    .paypal img {
+        width: 80%;
+    }
+}

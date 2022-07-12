@@ -1,0 +1,129 @@
+@media only screen and (max-width: 2000px) {
+    .mainContacto {
+        background-image: url("../../img/contacto/182026062bkg-contacto.jpg");
+    }
+
+    .contenedorContacto {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        width: 100%;
+        padding-bottom: 150px;
+        gap: 50px;
+    }
+
+
+    .formularioContacto {
+        position: relative;
+        z-index: 1000;
+        display: grid;
+        margin-top: 200px;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.711);
+        border-radius: 17px;
+        padding: 10px;
+        width: 70%;
+        gap: 25px;
+    }
+
+    .formulario .tituloContacto {
+        font-size: 40px;
+        font-weight: 300;
+
+    }
+
+    .formularioDeAdentro {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: .4;
+    }
+
+    .formularioDeAfuera {
+        display: flex;
+        gap: 3%;
+        justify-content: center;
+
+    }
+
+    .numero {
+
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        background-color: rgba(0, 0, 0, 0.711);
+        border-radius: 17px;
+        color: white;
+        font-size: 45px;
+        font-weight: 500;
+        display: flex;
+        place-content: center;
+        gap: 30px;
+
+    }
+
+    .formularioContacto {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.711);
+        border-radius: 17px;
+        padding: 10px;
+        width: 60%;
+        gap: 25px;
+    }
+
+
+
+    .formularioDeAdentro {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: .4;
+    }
+
+    .formularioDeAfuera {
+        display: flex;
+        gap: 3%;
+        justify-content: center;
+    }
+
+    .numero {
+        width: 54%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .tituloContacto {
+        padding: 0%;
+        font-size: 23px;
+        border: none;
+        color: white;
+    }
+
+
+
+    .numero {
+        font-size: 25px;
+        align-items: center;
+    }
+
+
+    .MuiOutlinedInput-root {
+        height: 40px;
+    }
+
+    .MuiFormControl-root MuiTextField-root css-61q52g-MuiFormControl-root-MuiTextField-root {
+        height: 80px;
+    }
+}
